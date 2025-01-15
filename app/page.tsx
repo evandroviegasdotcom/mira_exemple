@@ -30,7 +30,7 @@ export default function Home() {
             Contact
           </Link>
           <Button>
-          <Link href="/app">Get Started</Link>
+          <Link href="/app">Get Startedd</Link>
           </Button>
         </nav>
       </header>
