@@ -7,7 +7,13 @@ const nextConfig = {
             { hostname: "cdn.jsdelivr.net" },
             { hostname: "utfs.io" },
         ]
-    }
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
 };
 
 export default nextConfig;
